@@ -1,0 +1,237 @@
+body{
+font-family: 'Cabin', Helvetica, Arial, sans-serif; 
+font-size:12pt;
+background-image:url('images/bg2.jpg');
+background-size:1920 1080;
+background-attachment:fixed;
+background-position:center top;
+width:919px;
+margin:auto auto;
+}
+h1,h2,h3,h4,h5{
+font-family: 'Lobster Two', Georgia, Times, serif;
+font-weight:700;
+font-style:italic;
+}
+#web{
+background-image:url('images/circuts.png');
+background-repeat:repeat;
+padding:5px;
+-moz-box-shadow:    3px 3px 5px 6px #000000;
+-webkit-box-shadow: 3px 3px 5px 6px #000000;
+box-shadow:         3px 3px 5px 6px #000000;
+}
+#banner{
+height:80px;
+text-align:center;
+}
+#banner_img{
+-moz-border-radius: 15px;
+border-radius: 15px;
+-moz-box-shadow:    3px 3px 5px 6px #003300;
+-webkit-box-shadow: 3px 3px 5px 6px #003300;
+box-shadow:         3px 3px 5px 6px #003300;
+height:120px;
+width:902.5px;
+}
+
+
+#tabs_container{
+position:relative;
+right:3px;
+padding: 0px 16px 0px 6px;
+z-index:99;
+}
+#tabs_container div {
+float: left; 
+height: 44px; 
+width: 12px;
+z-index:99;
+background-image:url('images/black.png');
+background-repeat:none;
+}
+#tabs {
+margin:0px;
+padding: 0px;
+list-style-type: none;
+font-size: 150%;
+height: 40px;
+border-top: 2px solid #333;
+border-bottom: 3px solid #000;
+background: #333;
+margin-left: 12px;
+position:relative;
+right:3px;
+padding: 0px 16px 0px 6px;
+z-index:99;
+}
+#tabs li {
+float: left;
+}
+#tabs li a {
+text-decoration: none;
+display: block;
+padding: 0 20px;
+line-height: 40px;
+color: #CCC;
+}
+#tabs li a:hover{
+color: #999; 
+background: #555; 
+border-bottom: 3px solid #444;
+}
+#tabs li.active a {
+border-bottom: 3px solid #BA0000;
+}
+#tabs li.active a:hover{
+color: #999; 
+background: #555; 
+}
+
+#roundright{
+position:absolute;
+right:0px;
+z-index:-5;
+}
+
+#content{
+margin-top:4px;
+margin-left:5px;
+min-height:805px;
+width:679px;
+text-align:left;
+}
+
+.tab_content {
+padding:5px;
+padding-top:15px;
+position:relative;
+top:-10px;
+left:10px;
+text-align:left;
+background-image:url('images/crosses.png');
+background-repeat:repeat;
+display: none;
+-moz-border-radius-bottomleft: 15px;
+-moz-border-radius-bottomright: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+
+-moz-box-shadow:    3px 3px 5px 6px #003300;
+-webkit-box-shadow: 3px 3px 5px 6px #003300;
+box-shadow:         3px 3px 5px 6px #003300;
+}
+
+#right{
+float:right;
+width:183.8px;
+padding:5px;
+position:relative;
+top:-10px;
+text-align:center;
+margin-top:4px;
+margin-right:4px;
+background-image:url('images/twinkle_twinkle.png');
+background-repeat:repeat;
+font-size:110%;
+color:#D11111;
+
+-moz-box-shadow:    3px 3px 5px 6px #003300;
+-webkit-box-shadow: 3px 3px 5px 6px #003300;
+box-shadow:         3px 3px 5px 6px #003300;
+}
+#news{
+position:fixed;
+width:183px;
+}
+.text{
+padding-top:3px;
+padding-bottom:3px;
+padding-right:5px;
+padding-left:5px;
+}
+.video{
+padding-top:3px;
+padding-bottom:3px;
+padding-right:10px;
+padding-left:10px;
+font-size:14pt;
+}
+.page{
+font-weight: bold;
+}
+#footer{
+text-align:left;
+height:67px;
+margin:5px;
+margin-top:10px;
+background-image:url('images/graybanner.jpg');
+background-size:995px auto;
+-moz-border-radius: 15px;
+border-radius: 15px;
+position:relative;
+-moz-box-shadow:    3px 3px 5px 6px #003300;
+-webkit-box-shadow: 3px 3px 5px 6px #003300;
+box-shadow:         3px 3px 5px 6px #003300;
+
+}
+#legal{
+padding-left:8px;
+text-align:left;
+vertical-align:middle;
+height:67px;
+font-size:11pt;
+font-weight: bold;
+}
+#ad{
+float:right;
+position:absolute;
+vertical-align:middle;
+-moz-border-radius: 15px;
+border-radius: 15px;
+right:3px;
+}
+p.small{
+padding:3px;
+margin:0px;
+}
+p.centered{
+vertical-align:middle;
+padding:3px;
+}
+#copyright{
+font-size:8pt;
+}
+#map{
+	width:500px;
+	height:500px;
+}
+#loadedPictures,#loadedText{
+display:none;
+}
+
+
+#progressBar {
+		width: 180px;
+		height: 22px;
+		border: 1px solid #111;
+		background-color: #292929;
+		-moz-border-radius: 8px;
+border-radius: 8px;
+}
+
+#progressBar div {
+		height: 100%;
+		color: #fff;
+		text-align: right;
+		line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+		width: 0;
+		background-color: #0099ff;
+		-moz-border-radius:8px;
+border-radius: 8px;
+}
+
+
+
+A:link, A:visited, A:active {text-decoration: none; color:#4E1066;}
+A:hover {text-decoration: none; color: #08CC74;}

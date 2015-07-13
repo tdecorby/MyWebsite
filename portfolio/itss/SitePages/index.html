@@ -1,0 +1,668 @@
+﻿<!DOCTYPE html> 
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<!-- Mimic Internet Explorer 7 -->
+  	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" >
+	
+	<title>ICT Shared Services Branch</title>
+	
+	<!-- Icon links -->
+	<link rel="shortcut icon" href="../SiteAssets/images/myicon2.ico" />
+	
+	<!-- CSS links -->
+	<link rel="stylesheet" href="../SiteAssets/font-awesome/css/font-awesome.min.css"/> 
+	<!--[if IE 7]>
+  	<link rel="stylesheet" href="../SiteAssets/font-awesome/css/font-awesome-ie7.min.css">
+	<![endif]-->
+	
+	<!-- JS links -->
+	<script type="text/javascript" src="../SiteAssets/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="../SiteAssets/customIndexJS.js"></script>
+	<!-- Custom CSS links -->
+	<link rel="stylesheet" href="../SiteAssets/customCSS.css"/>	 
+	
+	<!-- IE7 CSS Settings -->
+	<!--[if IE 7]>
+		<style type="text/css">
+			body{
+			position: relative;
+			}
+			.nav i{
+			position:relative;
+			top:3px;			
+			}
+			.q_a li{
+			margin-bottom:25px;
+			}
+			hr{
+			padding:0px;
+			margin:0px;
+			}
+			
+			#small span{
+			font-size:100%;
+			position:relative;
+			top:8px;
+			}
+			#regular span{
+			font-size:125%;
+			position:relative;
+			top:4px;
+			}
+			#large span{
+			font-size:150%;
+			position:relative;
+			top:0px;
+			}
+			#searchbutton{
+			position:relative;
+			top:1px;
+			}
+			#searchbutton i{
+			top:0px;
+			right:-1px;
+			}
+			.dropdown{
+			left:175px;
+			}
+			.round1{
+			position:absolute;
+			top:0px;
+			left:137px;
+			border:none;
+			z-index:-1;
+			}
+			.round2{
+			position:absolute;
+			top:0px;
+			left:-10px;
+			border:none;
+			z-index:-1;
+			}
+			.rounds1{
+			position:absolute;
+			top:5px;
+			left:160px;
+			border:none;
+			z-index:-1;
+			}
+			.rounds2{
+			position:absolute;
+			top:5px;
+			left:2px;
+			border:none;
+			z-index:-1;
+			}
+		</style>
+	<![endif]--> 
+	
+	</head>
+
+	<body>
+		<div id="web">
+		<!-- Top Banner that houses the seach bar and text size change -->
+			<div id="banner">
+				<div id="textSize">
+					<a id="small" class="boxes" href="#"><span>A</span></a>
+					<a id="regular" class="boxes" href="#"><span>A</span></a>
+					<a id="large" class="boxes" href="#"><span>A</span></a>
+				</div>
+				<div id="searchBar">
+					<form id="search">
+						<input type="text" maxlength="50" id="searchText" value="Search Site..." onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+						<a id="searchbutton"><span></span></a>
+					</form>
+				</div>
+
+				<div id="bisondiv">
+					<a href="http://cserv.internal/sites/ITSS/SitePages/index.html">
+						<img id="bisonpic" src="../SiteAssets/images/Large_bison_white.png" alt="Manitoba Government Logo"/>
+						<div id="bisontext">Manitoba Finance</div>
+					</a>
+				</div>
+			</div>
+			
+			<!-- Navigation on Left side -->
+			<!-- Main site navigation -->
+			<div id="menu">
+				<ul class="nav" id="leftnav">
+					<li id="home" class="active"><h3><a href="#Home_tab">
+					<img class="round2" src="../SiteAssets/images/round_s.png"><span></span>Home<img class="round1" src="../SiteAssets/images/round_s.png"></a></h3></li>
+					<li id="services"><h3><a href="#Services_tab">
+					<img class="round2" src="../SiteAssets/images/round_s.png"><span></span>Our Services<img class="round1" src="../SiteAssets/images/round_s.png"></a></h3></li>
+					<li id="contact"><h3><a href="#Contact-Us_tab">
+					<img class="round2" src="../SiteAssets/images/round_s.png"><span></span>Our Team<img class="round1" src="../SiteAssets/images/round_s.png"></a></h3></li>
+					<li id="faq"><h3><a href="#FAQ_tab">
+					<img class="round2" src="../SiteAssets/images/round_s.png"><span></span>FAQ<img class="round1" src="../SiteAssets/images/round_s.png"></a></h3></li>
+				</ul>
+				
+				<!-- Clients Dropdown -->
+				<ul class="nav" id="rightnav">
+					<li id="clients"><h3><a href="javascript: void(0)">
+					<img class="round2" src="../SiteAssets/images/round_s.png"><span></span>Our Clients<img class="round1" src="../SiteAssets/images/round_s.png"><span></span></a></h3>
+						<ul class="dropdown" id="sites">	
+							<li><h5><a href="http://www.internal/csc/" class="large">
+							<img class="round2" src="../SiteAssets/images/round_s.png">Civil Service Commission<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+							<li><h5><a href="http://www.gov.mb.ca/cca/index.html" class="large">
+							<img class="round2" src="../SiteAssets/images/round_s.png">Consumer &amp; Corporate Affairs<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+							<li><h5><a href="http://gww.internal/finance/">
+							<img class="round2" src="../SiteAssets/images/round_s.png">Finance<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+							<li><h5><a href="http://www.gov.mb.ca/csc/osd/">
+							<img class="round2" src="../SiteAssets/images/round_s.png">OSD<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+						</ul>
+					</li>
+					
+					<!-- Quicklinks Dropdown -->
+					<li id="quicklinks"><h3><a href="javascript: void(0)">
+					<img class="round2" src="../SiteAssets/images/round_s.png"><span></span>QuickLinks<span></span><img class="round1" src="../SiteAssets/images/round_s.png"></a></h3>
+						<ul class="dropdown" id="rightlinks">
+							<li><h5><a href="/sites/btt_customer_portal/Pages/home.aspx">
+							<img class="round2" src="../SiteAssets/images/round_s.png">BTT<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+							<li><h5><a href="http://www.internal/fortem/holidays.html" class="large">
+							<img class="round2" src="../SiteAssets/images/round_s.png">Civil Service Holidays<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+							<li><h5><a href="/sites/btt_customer_portal/contactus/Pages/home.aspx">
+							<img class="round2" src="../SiteAssets/images/round_s.png">ICT Service Desk<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+							<li><h5><a href="http://www.internal/info_security/index.html" class="large">
+							<img class="round2" src="../SiteAssets/images/round_s.png">Information Security<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+							<li><h5><a href="/sites/btt_customer_portal/pservices/homeuse/Pages/home.aspx" class="large">
+							<img class="round2" src="../SiteAssets/images/round_s.png">Microsoft Home Use Policy<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+							<li><h5><a href="http://gww.internal/csc/npn/">
+							<img class="round2" src="../SiteAssets/images/round_s.png">NPN<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+							<li><h5><a href="http://gww.internal/sap/">
+							<img class="round2" src="../SiteAssets/images/round_s.png">SAP Support<img class="round1" src="../SiteAssets/images/round_s.png"></a></h5></li>
+						</ul>
+					</li>
+					
+					<!-- Link to Regular Sharepoint site -->
+					<li id="members"><h3><a href="http://cserv.internal/sites/ITSS/SitePages/Home.aspx">
+					<img class="round2" src="../SiteAssets/images/round_s.png"><span></span>Members<img class="round1" src="../SiteAssets/images/round_s.png"></a></h3></li>
+				</ul>
+					
+			</div>
+
+			
+					
+				
+			<!-- Main contents area -->		
+			<div id="content">
+				<!-- Home Page -->
+				<div id="Home_tab" class="tab_content" >
+					
+					<h1>Welcome to the ICT Shared Service Branch</h1>
+					<h4>Corporate Services Division</h4>
+					<p style="text-indent:2em">
+						Ensuring that all our clients are receiving the best value for their ICT investments 
+					</p>
+							
+					<img id="homepic1" src="../SiteAssets/images/finance1_s.jpg" alt="Finance Equipment"/>
+							
+					<h4>Our Mandate</h4>
+					<p style="text-indent:2em">
+						The ICT Shared Services Branch is responsible for 
+						ensuring that all our clients are receiving the best value for their ICT investments.
+					</p>
+							
+					<h4>Our Mission</h4>
+					<p style="text-indent:2em">
+						To provide customer centered ICT services that: 
+						Deliver optimal value at an affordable cost, within acceptable timeframes and 
+						with an acceptable level of risk Are a valued and integral part of their 
+						business processes, Exploits ICT to its full potential for our clients, Provides 
+						ICT solutions leadership and process innovation, Leverages the CobiT framework 
+						for process and control guidance. To provide our team members with a healthy, 
+						respectful workplace that promotes personal growth and is great place to work. 
+					</p>
+							
+					<img id="homepic2" src="../SiteAssets/images/tech_s.jpg" alt="Business World"/>
+				</div>
+				
+				
+				<!-- Services Page -->
+				<div id="Services_tab" class="tab_content">
+			
+					<h1>Our Services</h1>
+					<p style="text-indent:2em">
+						We deliver the following value-added services:
+						<ul>
+							<li>Information and Communications Technology (ICT) Planning and Investment Services</li>
+							<li>Business Architecture and Systems Consulting</li>
+							<li>Information Management, Analysis and Reporting Services</li>
+							<li>Analysis and Reporting Services include:
+								<ul>
+									<li>Web Content and Collaboration Services</li>
+									<li>Workplace Technology Service Delivery Coordination</li>
+								</ul>
+							</li>
+						</ul>
+					<h4>Information and Communications Technology (ICT) Planning and Investment Services</h4>
+					<ul>
+						<li>
+							We create the strategic ICT plans that define, with our business 
+							stakeholders, the best ICT investments that support the achievement of their 
+							desired business outcomes. 
+						</li>
+						<img id="serpic1" src="../SiteAssets/images/ict.png" alt="ICT Logo"/>
+						<li>
+							We develop business cases based on business architectures, requirements, and 
+							our solutions research and analysis to recommend the best investments for the 
+							department. 
+						</li>
+						<li>
+							We ensure that the department’s ICT plans provide maximum business value by 
+							incorporating process improvement and innovation.
+						</li>
+						<li>
+							Our plans will support the department’s role as an agent for change, focused 
+							on establishing a value attitude throughout the organization.
+						</li>
+					</ul>
+					<h4>Business Architecture and Systems Consulting</h4>
+					<ul>
+						<li>
+							We utilize Business Architecture to capture our business owners’ goals, 
+							objectives, strategies, capabilities, and processes to support process 
+							improvement efforts and ICT enabled projects.
+						</li>
+						<li>
+							We leverage the Business Architecture when working with our business clients 
+							to identify and assess their business value streams i.e. the series of process 
+							steps that executed to provide the product, service and/or experience they wish 
+							to deliver to its clients or stakeholders. 
+						</li>
+						<li>
+							We work closely with our business stakeholders to identify and exploit 
+							opportunities to leverage ICT to enable business transformation and process improvement. 
+						</li>
+						<li>
+							Our Systems Consulting services involves working closely with our business 
+							subject matter experts, BTT and vendor partners to research and implement the 
+							ICT investments that they deliver optimal value at an affordable cost and are 
+							delivered within acceptable timeframes.
+						</li>
+						<li>
+							Our Systems Consulting services also involves organizing and leading ICT 
+							investment initiatives on behalf of our clients including the planning, business 
+							case development, requirements gathering; solution assessment, and implementation. 
+						</li>
+					</ul>
+					<h4>Information Management, Analysis and Reporting Services</h4>
+					<ul>
+						<li>
+							Our services address the following aspects of the management of our clients’ information: 
+						</li>
+						<img id="serpic2" src="../SiteAssets/images/info.jpg" alt="Data Storage"/>
+						<li>
+							Integrity: Ensuring the accuracy and completeness of business information as 
+							well as to its validity in accordance with business values and expectations.
+						</li>
+						<li>Effectiveness: Deals with information being relevant and pertinent to the 
+							business process as well as being delivered in a timely, correct, consistent and 
+							usable manner. 
+						</li>
+						<li>
+							Availability: Relates to information being available when required by the 
+							business process now and in the future. It also concerns the safeguarding of 
+							necessary resources and associated capabilities. 
+						</li>
+						<li>
+							Reliability: Relates to the provision of appropriate information for 
+							management to operate the entity and to exercise its fiduciary and governance 
+							responsibilities. 
+						</li>
+						<li>
+							Confidentiality: Concerns the protection of sensitive information from unauthorised disclosure. 
+						</li>
+						<li>
+							Our Analysis and Reporting Services include:
+						</li>
+						<li>
+							Statistical Analysis (The collection, examination, organization, and interpretation of business
+						</li>
+						<li>
+							Predictive Analysis (Thorough analysis of data accumulated; extracting 
+							information from that analysis to help management to predict the future through 
+							thorough analysis of the past.) 
+						</li>
+						<li>
+							Reporting (Crystal Reports/SAS/SQL)
+						</li>
+					</ul>
+					<h4>Web Content and Collaboration Services</h4>
+					<ul>
+						<li>
+							We design, manage and assist our clients in maintaining their web sites and content with accurate, up-to-date content. 
+						</li>
+						<li>
+							We complete requirements analysis related to web sites and systems. 
+						</li>
+						<li>
+							We assist our clients in prioritizing requests related to web site development and maintenance. 
+						</li>
+						<li>
+							We train our clients in the use of tools for content updating and publication. 
+						</li>
+						<li>
+							We help our clients to leverage and exploit collaboration tools that increase process efficiency and knowledge sharing.
+						</li>
+						<li>
+							We promote new enhancements and concepts that can help our business clients to improve their business processes. 
+						</li>
+					</ul>
+					<h4>Workplace Technology Service Delivery Coordination</h4>
+					<ul>
+						<li>
+							We coordinate, monitor and audit all Workplace Technology service delivery and support for our clients.
+						</li>
+						<img id="serpic3" src="../SiteAssets/images/technology.jpg" alt="Technology"/>
+						<li>
+							We provide business technology expertise and consulting services to all Users. 
+						</li>
+						<li>
+							We manage Workplace Technology Projects. 
+						</li>
+						<li>
+							We provide customer driven Workplace Technology service issue management to ensure that our clients have an effective and reliable desktop environment. 
+						</li>
+						<li>
+							Research and provide recommendations ITSS management on new Workplace Technology solutions support. 
+						</li>
+						<li>
+							We provide assistance in the development of our client’s budgets related to Workplace technology needs. 
+						</li>
+						<li>
+							We manage a business focussed IT Security Framework. Planning and Administration Services 
+						</li>
+					</ul>
+					<h4>Planning and Administration Services</h4>
+					<ul>
+						<li>
+							We coordinate the 5 year ICT strategic plan and approval cycle. 
+						</li>
+						<li>
+							We facilitate the scheduling of ICT projects and preliminary assessments 
+							with our Business Consultants, BTT and vendors to ensure EMC has complete project profiles. 
+						</li>
+						<li>
+							We continuously monitor and report on the execution of our ICT projects. 
+						</li>
+						<li>
+							We proactively manage and report on our budgets to maximize the value we 
+							receive for our expenditures. 
+						</li>
+						<li>
+							We direct the ICT contract, license and asset management functions in 
+							conjunction with our Workplace Technology Services Delivery Coordinators. 
+						</li>
+						<li>
+							We direct and provide assistance to our clients for ICT procurement. 
+						</li>
+						<li>
+							We coordinate and provide Intranet/Internet support to our clients, as needed. 
+						</li>
+					</ul>
+				</div>
+
+
+				
+				
+				
+				
+				
+				
+				<!-- Contact Page -->
+				<div id="Contact-Us_tab" class="tab_content">
+			
+					<img id="contactpic1" src="../SiteAssets/images/contact1.jpg" alt="Communication Tools">
+					<h1>Our Team</h1>
+					Email us at: <a href="mailto:itmbmail@gov.mb.ca">itmbmail@gov.mb.ca</a>
+					<br>
+					<br>
+					<br>
+					<table>
+						<tbody>
+							<hr/>
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Michael.Antonio@gov.mb.ca">Michael Antonio</a></strong></td>
+								<td>Director</td>
+								<td class="phone">(204)-232-3560</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									Overall strategic planning, policy development and delivery 
+									of the information technology program for Manitoba Finance. IT oversight and 
+									support for the Consumer and Corporate Affairs Division (FSCA).
+								</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Phong.Duong@gov.mb.ca">Phong Duong</a></strong></td>
+								<td>Director</td>
+								<td class="phone">(204)-945-4805</td>
+							</tr>
+							<tr><td colspan="2">
+									Overall strategic planning, policy development and delivery 
+									of the information technology program for Civil Service Commission. IT 
+									oversight and support for the Organization and Staff Development
+								</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Jane.Bailey@gov.mb.ca">Jane Bailey</a></strong></td>
+								<td>Service Delivery Coordinator</td>
+								<td class="phone">(204)-945-8679</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									Business Area(s) primarily responsible for:<br>
+									Civil Service Commission (CSC) Organization and Staff Development (OSD) 
+								</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Dale.Baker@gov.mb.ca">Dale Baker</a></strong></td>
+								<td>Program Coordinator</td>
+								<td class="phone">(204)-945-0273</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									CSC/Finance - focus on SAP-HR modules - overview, requests for change, data integrity, SAP-HR reports using live data;
+									Appointment and Stafing data; Government Risk COmpliance(GRC) for HR roles and Civil Service Commission; along with Job Opportunities,
+									Website issues and Employee Self Service Program coordination.
+		 
+								</td>							
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Pamela.Bartram@gov.mb.ca">Pamela Bartram</a></strong></td>
+								<td>Business Consultant</td>
+								<td class="phone">(204)-470-5896</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									Business Area(s) primarily responsible for:<br>
+									Comptroller Division Treasury Division<br>
+									Insurance and Risk Management
+								</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Pauline.Campbell@gov.mb.ca">Pauline Campbell</a></strong></td>
+								<td>Senior Business Consultant</td>
+								<td class="phone">(204)-795-1716</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									Business Area(s) primarily responsible for: <br>
+									Taxation, Economic and Intergovernmental Fiscal Research 
+								</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Marie.Leclerc@gov.mb.ca">Marie Leclerc</a></strong></td>
+								<td>Manager, Planning &amp; Administration</td> 
+								<td class="phone">(204)-945-6911</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									Responsible for:<br>
+									Assistance in the strategic planning<br>
+									Responsible for the Project Management Office (PMO) operations<br>
+									Share Point Services
+								</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Mike.Onufreychuk@gov.mb.ca">Mike Onufreychuk</a></strong></td>
+								<td>Web Coordinator</td>
+								<td class="phone">(204)-945-3189</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Ricardo.Rattan@gov.mb.ca">Ricardo Rattan</a></strong></td>
+								<td>Service Delivery Coordinator</td>
+								<td class="phone">(204)-471-0510</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									Business Area(s) primarily responsible for: <br>
+									Finance (FIN) Consumer and Corporate Affairs Division (CCA)<br>
+									Public Utilities Board<br>
+									Eastside Road Authority
+								</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Tim.Stuart@gov.mb.ca">Tim Stuart</a></strong></td>
+								<td>Application Development and Support Analyst</td>
+								<td class="phone">(204)-945-1095</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									Business Area(s) primarily responsible for: <br>
+									Treasury Board Secretariat								
+								</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Peter.NgTan@gov.mb.ca">Peter Ng Tan</a></strong></td>
+								<td>Statistical Analyst</td>
+								<td class="phone">(204)-945-4805</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+							
+							<tr>
+								<td style="font-size:large"><strong><a href="mailto:Laura.Vaughan@gov.mb.ca">Laura Vaughan</a></strong></td>
+								<td>Business Consultant</td>
+								<td class="phone">(204)-391-3112</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									Business Area(s) primarily responsible for: <br>
+									Taxation Division
+								</td>
+							</tr>
+							<tr><td class="space" colspan="3"><hr/></td></tr>
+						</tbody>
+					</table>
+				</div>
+
+				
+				<!-- FAQ Page -->
+				<div id="FAQ_tab" class="tab_content">
+				
+				
+					<img id="faqpic1" src="../SiteAssets/images/faq1.png" alt="Questions and Answers">
+					<h1>Frequently Asked Questions</h1>
+					<h4>Table of Contents</h4>
+					<ol id="toc">
+						<li><a href="#first">Day to Day Operational Assistance Services</a></li>
+						<li><a href="#second">IT Investment Planning and Acquisition Services</a></li>
+					</ol>
+					<hr/>
+					<h4><a name="first">Day to Day Operational Assistance Services</a></h4>
+					<hr/>
+					<ul class="q_a">
+						<li>
+							<b>Q: I need help with a service problem that is not getting resolved.</b>
+							<br/>
+							<b>A:</b> Contact your Desktop Coordinator for Assistance; an escalation can be handled at that level 
+						</li>
+						<br/>
+						<li>
+							<b>Q: I need help to identify and procure Desktop Software and Hardware.</b>
+							<br>
+							<b>A:</b> an eSOR will need to be created for assistance you can contact your Business Consultant 
+						</li>
+						<br/>
+						<li>
+							<b>Q: I need Desktop Software Training.</b><br>
+							<b>A:</b> BTT has online training available; Click here for 
+							information; BTT Training Site. The Government of Manitoba has a training 
+							contract with ASAP Training formerly Presidio Training; request training via 
+							SAP Release PO Contract 4600014958; or you can contact the Manager, Planning 
+							and Administration for assistance 
+						</li>
+						<br/>
+						<li>
+							<b>Q: I am concerned about my data security risks. How can I get help? </b>
+							<br>
+							<b>A:</b> The Desktop Coordinator can assist you on a security plan 
+						</li>
+						<br/>
+						<li>
+							<b>Q:I would like to set up a share point site</b>
+							<br>
+							<b>A:</b> There is a cost for Share Point Sites; $100 per month; 
+							you would request this service via eSOR; if you require assistance you can 
+							contact the Manager, Planning and Administration; 
+						</li>
+					</ul>
+					<hr/>
+					<h4><a name="second">IT Investment Planning and Acquisition Services</a></h4>
+					<hr/>
+					<ul class="q_a">
+						<li>
+							<b>Q: How can I get help to evaluate and plan the IT needs for my program area?</b>
+							<br>
+							<b>A:</b> Your Business Consultant can assist you in your IT needs 
+						</li>
+						<br>
+						<li>
+							<b>Q: How do I acquire new IT Solutions or enhancements?</b>
+							<br>
+							<b>A:</b> Your Business Consultant can assist with your IT Solutions 
+						</li>	
+					</ul>
+					<hr/>
+				</div>
+				
+			</div>
+			
+			<!-- Bottom Bar -->
+			<div id="bottom">
+			
+			</div>
+			
+			
+		</div>
+		
+		<!-- Shadows on page -->
+		<div class="wrapper">
+			<div class="margins" id="mleft"></div>
+			<div class="margins" id="mright"></div>
+			<div class="margins" id="mright2"></div>
+		</div>
+
+	</body>
+</html>

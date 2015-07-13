@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta name="description" content="My web development website set up to test, develope, and show off my web programming skills"/>
+		<meta name="keywords" content="Taylor, DeCorby, Decorby, decorby, web, development, programmer, programming, html5, css3, javascript, html, css"/>
+                <meta name="author" content="Taylor DeCorby"/>
+                <meta name="revisit-after" content="30 days"/>
+                <!-- Character encoding -->
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		
+		<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700|Cabin' rel='stylesheet' type='text/css'>
+		<link href="plugins/font-awesome/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="indexCSS.css"/>
+		<link rel="shortcut icon" href="images/logo/favLogo.ico" />
+		
+		<title>Taylor's Software</title>
+	</head>
+	
+	<body>
+        <div id="web" class="container">
+			<div class="row">
+				<div id="left" class="col-md-3">
+				
+					<div class="center">
+						<img id="logo" src="images/logo/logo.png"/>
+					</div>
+
+					<div id="menu">
+						<ul id="nav">
+							<li id="home"><a href="."><i class="fa fa-home"></i> HOME</a></li><br>
+							<li id="port"><a href="port.html"><i class="fa fa-folder-open"></i> WEB PORTFOLIO</a></li><br>
+							<li id="dev"><a class="active" href="dev.html"><i class="fa fa-gears"></i> SOFTWARE</a></li><br>
+							<li id="about"><a href="about.html"><i class="fa fa-user"></i> ABOUT</a></li><br>
+							<li id="contact"><a href="contact.html"><i class="fa fa-envelope"></i> CONTACT</a></li>
+							
+						</ul>
+					</div>
+					
+				</div>
+		
+				<div id="content" class="col-md-9 ">
+		
+					<p id="topP">
+						<strong>My Name is Taylor, and welcome to my</strong>
+						<h1>Software Portfolio</h1>
+					</p>
+					
+					<div class="row websites">
+						<div class="col-md-6">
+							<h2>BlackJack <small>- 2014</small></h2>
+							<p class="text-justify">
+								This is an Android App that I made based off of a final project I did for my senior year of high school.<br>
+								I created it to familiarize myself with the android development process<br>
+								Its a very bare bones version of blackjack, I have only tested it on a few phones and tablets but its free and has no ads.<br>
+								I hope you enjoy it!
+								<br><br>
+								<a class="btn btn-success" href="files/BlackJack.apk" role="button">Download</a>
+							</p>
+						</div>
+						<div class="col-md-6">
+							<h3 class="screenshots">Screenshots</h3>
+							<div id="blackjackss" class="carousel slide" data-ride="carousel">
+								  <!-- Indicators -->
+								  <ol class="carousel-indicators">
+									<li data-target="#blackjackss" data-slide-to="0" class="active"></li>
+									<li data-target="#blackjackss" data-slide-to="1"></li>
+									<li data-target="#blackjackss" data-slide-to="2"></li>
+									<li data-target="#blackjackss" data-slide-to="3"></li>
+								  </ol>
+
+								  <!-- Wrapper for slides -->
+								  <div class="carousel-inner" role="listbox">
+									<div class="item active">
+									  <img src="images/blackjack/bjss1.jpg" alt="Starting Screen"/>
+									  <div class="carousel-caption">
+										<strong class="caption">Starting Screen</strong>
+									  </div>
+									</div>
+									<div class="item">
+									  <img src="images/blackjack/bjss2.jpg" alt="New Game"/>
+									  <div class="carousel-caption">
+										<strong class="caption">New Game</strong>
+									  </div>
+									</div>
+									<div class="item">
+									  <img src="images/blackjack/bjss3.jpg" alt="Win"/>
+									  <div class="carousel-caption">
+										<strong class="caption">Win</strong>
+									  </div>
+									</div>
+									<div class="item">
+									  <img src="images/blackjack/bjss4.jpg" alt="Bust"/>
+									  <div class="carousel-caption">
+										<strong class="caption">Bust</strong>
+									  </div>
+									</div>
+								  </div>
+
+								  <!-- Controls -->
+								  <a class="left carousel-control" href="#blackjackss" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								  </a>
+								  <a class="right carousel-control" href="#blackjackss" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								  </a>
+							</div>
+						</div>
+					</div>
+				</div>
+            
+				<div id="footer" class="col-md-12">
+				
+					<p id="footerP">
+						<a id="face" href="http://www.facebook.com/Tdecorby" target="_blank"><i class="fa fa-facebook-square"></i></a>
+						<a id="twit" href="http://www.twitter.com/shootystealy" target="_blank"><i class="fa fa-twitter"></i></a>
+					</p>
+					
+				</div>
+            </div>
+        </div>
+		<script src="plugins/jq/jquery-2.1.4.min.js"></script>
+		<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script type="javascript">
+		$('.carousel').carousel({
+		  interval: 2000
+		})
+		</script>
+	</body>
+</html>

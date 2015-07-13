@@ -1,0 +1,3 @@
+<p><img src="http://shootystealy.com/photos/test.jpg"  width="360px" height="264px"></p>
+<p><img src="http://shootystealy.com/photos/test2.JPG"  width="400px" height="285px"></p>
+<p><img src="http://shootystealy.com/photos/test3.JPG"  width="480px" height="353px"></p>

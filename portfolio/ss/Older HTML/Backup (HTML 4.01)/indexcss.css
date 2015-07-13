@@ -1,0 +1,215 @@
+body{
+font-family: Arial, sans-serif;
+background-image:url('images/mw.jpg');
+background-repeat:repeat;
+background-size:auto auto;
+background-attachment:fixed;
+font-size:20;
+}
+#web{
+width:1000px;
+min-height:800px;
+height:auto !important; 
+height:800px;
+background-color:#5C5557;
+margin-right: auto;
+margin-left: auto;
+}
+
+#banner{
+height:80px;
+width:100%;
+border:solid black 1px;
+text-align:center;
+}
+.icon{ vertical-align: -22%; }
+.icons{ vertical-align: -25%; }
+/* The CSS Code for the menu starts here */
+			#menu {
+				font-family: Arial, sans-serif;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin:0;
+				padding: 0;
+				list-style-type: none;
+				background-color: #eee;
+				font-size: 125%;
+				height: 40px;
+				border-top: 2px solid #eee;
+				border-bottom: 2px solid #ccc;
+			}
+			#menu li {
+				float: left;
+				margin: 0;				
+			}
+			#menu li a {
+				text-decoration: none;
+				display: block;
+				padding: 0 20px;
+				line-height: 40px;
+				color: #666;
+			}
+
+			#menu li a:hover, #menu li.active a {
+				background-color: #f5f5f5;
+				border-bottom: 2px solid #DDD;
+				color: #999;
+			}
+			#menu_wrapper ul {margin-left: 12px;}
+			#menu_wrapper {padding: 0 16px 0 0; background: url('images/grey.png') no-repeat right;}
+			#menu_wrapper div {float: left; height: 44px; width: 12px; background: url('images/grey.png') no-repeat left;}
+
+/* Black Menu */
+			#menu_wrapper.black ul {
+				border-top: 2px solid #333;
+				border-bottom: 2px solid #000;
+				background: #333;}
+			#menu_wrapper.black a {color: #CCC;}
+			#menu_wrapper.black li a:hover{color: #999; background: #555; border-bottom: 2px solid #444;}
+			#menu_wrapper.black li.active a {color: #CCC; background: #333; border-bottom: 2px solid #BA0000;}
+			#menu_wrapper.black li.active a:hover {color: #999; background: #555; border-bottom: 2px solid #BA0000;}
+			#menu_wrapper.black {background: url('images/black.png') no-repeat right;}
+			#menu_wrapper.black div {background: url('images/black.png') no-repeat left;}
+
+			
+			
+			
+			
+#main{
+float:left;
+min-height:800px;
+height:auto !important;
+/* IE10 */ 
+background-image: -ms-radial-gradient(center bottom, circle farthest-corner, #002B05 0%, #14A341 25%, #1BD956 75%, #006B0C 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center bottom, circle farthest-corner, #002B05 0%, #14A341 25%, #1BD956 75%, #006B0C 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center bottom, circle farthest-corner, #002B05 0%, #14A341 25%, #1BD956 75%, #006B0C 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center bottom, 0, center bottom, 567, color-stop(0, #002B05), color-stop(0.25, #14A341), color-stop(0.75, #1BD956), color-stop(1, #006B0C));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center bottom, circle farthest-corner, #002B05 0%, #14A341 25%, #1BD956 75%, #006B0C 100%);
+
+/* Proposed W3C Markup */ 
+background-image: radial-gradient(center bottom, circle farthest-corner, #002B05 0%, #14A341 25%, #1BD956 75%, #006B0C 100%);
+
+width:100%;
+border:solid black 1px;
+text-align:center;
+}
+#content{
+float:left;
+width:77%;
+margin:3px;
+min-height:800px;
+height:auto !important;
+text-align:left;
+border:solid black 1px;
+/* IE10 */ 
+background-image: -ms-linear-gradient(top, #9C9C9C 0%, #CCCCCC 25%, #BABABA 75%, #4A4A4A 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #9C9C9C 0%, #CCCCCC 25%, #BABABA 75%, #4A4A4A 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #9C9C9C 0%, #CCCCCC 25%, #BABABA 75%, #4A4A4A 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9C9C9C), color-stop(0.25, #CCCCCC), color-stop(0.75, #BABABA), color-stop(1, #4A4A4A));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #9C9C9C 0%, #CCCCCC 25%, #BABABA 75%, #4A4A4A 100%);
+
+/* Proposed W3C Markup */ 
+background-image: linear-gradient(top, #9C9C9C 0%, #CCCCCC 25%, #BABABA 75%, #4A4A4A 100%);
+
+background-size:auto auto;
+position:relative;
+z-index:99;
+}
+#right{
+float:right;
+width:20%;
+min-height:800px;
+height:auto !important;
+text-align:center;
+margin:3px;
+border:solid black 1px;
+background-color:black;
+background-image:url('images/news2.jpg');
+background-repeat:no-repeat;
+background-size:300px 100%;
+background-position:bottom;
+font-size:110%;
+color:#D11111;
+padding-right:5px;
+padding-left:5px;
+}
+p.text{
+padding-top:3px;
+padding-bottom:3px;
+padding-right:5px;
+padding-left:5px;
+}
+
+#post{
+padding:0px 20px;
+
+
+}
+
+A:link {text-decoration: none; color:#E07000;}
+A:visited {text-decoration: none; color:#E07000;}
+A:active {text-decoration: none; color:#E07000;}
+A:hover {text-decoration: none; color: teal;}
+
+
+
+
+
+
+#footer{
+float:left;
+height:67px;
+text-align:center;
+background-image:url('images/graybanner.jpg');
+background-size:995px auto;
+border:solid black 1px;
+width:100%;
+}
+#legal{
+width:25%;
+float:left;
+padding:0px;
+text-align:left;
+vertical-align:middle;
+height:67px;
+padding-top:4px;
+padding-right:6px;
+padding-left:6px;
+}
+#ad{
+float:left;
+vertical-align:middle;
+}
+#counter{
+float:right;
+width:25%;
+height:67px;
+vertical-align:middle;
+}
+p.small{
+padding:3px;
+margin:0px;
+}
+p.centered{
+vertical-align:middle;
+padding:3px;
+}
+#copyright{
+font-size:8pt;
+}

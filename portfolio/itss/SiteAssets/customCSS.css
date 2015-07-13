@@ -1,0 +1,372 @@
+﻿/* ie7 scroll fix */
+html{overflow-x: hidden;}
+
+/* main Settings */
+body{
+width:1020px;
+background: #084675;
+background-image:url('../SiteAssets/backgrounds/bg_blue_s-grad.jpg') ;
+background-attachment:fixed;
+background-repeat:repeat-y;
+background-position: center bottom;
+font-family: Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#1B1B1B;
+margin:auto auto;
+}
+/* Fonts and sizes */
+h1,h2{
+	font-family: Helvetica, sans-serif;
+	font-size:200%;
+}
+h2{
+	font-size:170%;
+
+}
+#menu h3,#menu h4,#menu h5{
+	font-family: Helvetica, sans-serif;
+	font-size:115%;
+}
+h3,h4,h5{
+	font-family: Helvetica, sans-serif;
+}
+#menu h4,#menu h5{
+	font-size:100%;
+}
+#content h4{
+	font-size:125%;
+}
+/* Shadows on page */
+.wrapper{
+position:absolute;
+width:1020px;
+min-height:1044px;
+z-index:-97;
+margin:auto auto;
+top:0px;
+}
+.margins{
+background-image:url('../SiteAssets/images/margin2.png');
+background-repeat:repeat;
+width:80px;
+height:1044px;
+position:absolute;
+top:0px;
+z-index:-99;
+}
+#mleft{
+left:-38px;
+}
+#mright{
+float:right;
+position:fixed;
+margin-left:978px;
+}
+#mright2{
+float:right;
+position:fixed;
+margin-left:120px;
+}
+
+
+/* content classes and Ids */
+#web{
+background-image:url('../SiteAssets/backgrounds/leather_t_s.jpg');
+background-repeat:repeat;
+font-size:100%;
+}
+
+
+/* Top Banner */
+#banner,#bottom{
+background-image:url('../SiteAssets/backgrounds/leather_dark_t_s.jpg');
+height:100px;
+background-repeat:repeat;
+background-attachment:fixed;
+color:#F9F9F2;
+}
+
+/* Right Side*/
+/* Text size change*/
+#textSize{
+float:right;
+font-weight:bold;
+padding:5px;
+text-align:center;
+}
+.boxes{
+display:block;
+float:left;
+background:white;
+width:25px;
+height:25px;
+margin-top:5px;
+margin-right:5px;
+text-decoration:none;
+color:black;
+}
+.boxes:hover{
+background:grey;
+text-decoration:none;
+}
+#small span{
+font-size:100%;
+position:relative;
+top:7px;
+}
+#regular span{
+font-size:125%;
+position:relative;
+top:4px;
+}
+#large span{
+font-size:150%;
+position:relative;
+top:0px;
+}
+
+/* Search bar and button*/
+#searchBar{
+float:right;
+position:relative;
+top:55px;
+right:-100px;
+padding:10px;
+}
+#searchText{
+color:grey;
+}
+#searchbutton{
+display:inline-block;
+background:white;
+width:18px;
+height:18px;
+color:black;
+text-decoration:none;
+font-size:18px;
+padding: 2px;
+position:relative;
+top:4px;
+}
+#searchbutton i{
+position:relative;
+top:-3px;
+right:-1px;
+}
+#searchbutton:hover{
+background:grey;
+text-decoration:none;
+}
+
+
+/* Left Side*/
+/* bison image and text underneath*/
+#bisondiv{
+width:400px;
+height:100px;
+padding-left:5px;
+}
+#bisondiv a,#bisondiv a:hover{
+color:#F9F9F2;
+display:block;
+text-decoration:none;	
+}
+#bisonpic{
+width:306px;
+height:60px;
+padding:5px 5px 0px 5px;
+border-style:none;
+}
+#bisontext{
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+padding:0px 5px 5px 7px;
+}
+
+/* Navigation Settings */
+/* Left, Right, and Dropdown menu basic settings*/
+#menu{
+float:left;
+display:block;
+margin:0;
+margin-left:11px;
+margin-top:0px;
+z-index:99;
+}
+.nav{
+position:absolute;
+line-height:38px;
+margin:0;
+padding:0;
+list-style-type:none;
+display:block;
+z-index:99;
+}
+.nav li{
+text-align:center;
+position:relative;
+}
+.nav li h3, .nav li h4, .nav li h5{
+margin:5px 0px 0px 0px;
+}
+.nav li a{
+width:147px;
+display:block;
+padding:0px 5px 0px 5px;
+text-decoration:none;
+background-image:url('../SiteAssets/backgrounds/leather_dark_t_s.jpg');
+background-repeat:repeat;
+color:#E7ECF0;
+}
+.nav li a:hover{
+text-decoration:none;
+background-image:url('../SiteAssets/backgrounds/leather_dark_t_s.jpg');
+background-repeat:repeat;
+color:#579D18;
+}
+#leftnav .active a{
+	color:#579D18;
+}
+#rightnav{
+margin-top:250px;
+}
+.large{
+line-height:19px;
+}
+.active{
+	left:10px;
+}
+/* Nav bar images */
+.round1{
+	position:absolute;
+	top:0px;
+	left:140px;
+	border:none;
+	z-index:-1;
+}
+.round2{
+	position:absolute;
+	top:0px;
+	left:-10px;
+	border:none;
+	z-index:-1;
+}
+
+/* Dropdown Settings*/
+.dropdown{
+display:none;
+position:absolute;
+top:0px;
+padding-top:5px;
+left:140px;
+margin-left:-150px;
+z-index:-1;
+list-style-type:none;
+}
+.dropdown li a,.dropdown li a:hover{
+width:150px;
+border-right:none;
+}
+.dropdown li h5{
+margin:0px 0px 5px 0px;
+}
+
+
+/* Content Container Settings*/
+#content{
+min-height:909px;
+display:block;
+margin-left:160px;
+}
+#content h1{
+margin-top:0px;
+}
+.tab_content{
+overflow:hidden;
+position:absolute;
+width:820px;
+display:none;
+padding:10px;
+padding-left:30px;
+background-image:url('../SiteAssets/backgrounds/paper_fibers2_s.jpg');
+background-repeat:repeat;
+z-index:96;
+text-align:left;
+margin-left:3000px;
+}
+#Home_tab{
+display:block;
+margin-left:0px;
+}
+
+
+
+/* bottom Div settings*/
+#bottom{
+height:35px;
+}
+
+
+
+/* Page Specific Settings*/
+/* pictures */
+#homepic1{
+float:right;
+width:300px;
+height:200px;
+padding:5px 0px 5px 5px;
+}
+#homepic2{
+width:820px;
+height:482px;
+}
+#faqpic1{
+float:right;
+width:200px;
+height:100px;
+}
+#serpic1{
+float:right;
+width:300px;
+height:200px;
+padding:5px;
+}
+#serpic2{
+float:right;
+width:300px;
+height:200px;
+padding:5px;
+}
+#serpic3{
+float:right;
+width:300px;
+height:200px;
+padding:5px;
+}
+#contactpic1{
+position:absolute;
+right:10px;
+width:200px;
+height:100px;
+}
+
+/* contacts table classes */
+.phone{
+width:110px;
+text-align:right;
+}
+.space{
+height:20px;
+}
+strong a{
+	text-decoration:none;
+}
+strong a:hover{
+	text-decoration:none;
+	color:purple;
+}
+
+/* FAQ */
+.q_a{
+list-style-type:none;
+}

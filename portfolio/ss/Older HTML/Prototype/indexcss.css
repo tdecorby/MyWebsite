@@ -1,0 +1,119 @@
+body{
+font-family:sarif;
+background-color:#00C8F5;
+font-size:20;
+}
+#web{
+background-color:grey;
+width:1000px;
+margin-right: auto;
+margin-left: auto;
+}
+#tabs{
+list-style:none;
+padding: 1px;
+margin: 0;
+}
+ul#tabs li {
+font-size:150%;
+text-align:center;
+display:inline-block;
+width:200px;
+}
+
+ul#tabs li a:link, ul#tabs li a:visited{
+border-color:silver black black silver;
+background-color:silver;
+border-style:outset;
+color:black;
+display:block;
+text-decoration:none;
+}
+
+ul#tabs li a#active{
+border-color:black black black black;
+background-color:grey;
+border-style:outset;
+color:black;
+display:block;
+text-decoration:none;
+}
+
+ul#tabs li a:hover{
+border-color:silver red red red;
+background-color:silver;
+border-style:outset;
+color:black;
+display:block;
+text-decoration:none;
+}
+
+ul#tabs li a:active{
+border-color:grey red red red;
+background-color:grey;
+border-style:inset;
+color:black;
+display:block;
+text-decoration:none;
+}
+
+#main{
+background-color:#48DE43;
+width:100%;
+height:750px;
+border:solid black 1px;
+text-align:center;
+}
+#text{
+float:left;
+width:50%;
+margin:3px;
+height:742px;
+text-align:center;
+border:solid black 1px;
+background-color:silver;
+}
+#img{
+float:right;
+width:45%;
+height:240px;
+margin:3px;
+}
+#banner{
+height:80px;
+width:100%;
+border:solid black 1px;
+text-align:center;
+}
+#footer{
+height:67px;
+text-align:center;
+background-color:grey;
+border:solid black 1px;
+width:100%;
+}
+#legal{
+width:25%;
+float:left;
+text-align:left;
+vertical-align:middle;
+height:67px;
+}
+#ad{
+float:left;
+vertical-align:middle;
+}
+#counter{
+float:right;
+width:25%;
+height:67px;
+vertical-align:middle;
+}
+p.small{
+padding:3px;
+margin:0px;
+}
+p.centered{
+vertical-align:middle;
+padding:3px;
+}

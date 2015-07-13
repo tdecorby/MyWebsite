@@ -1,0 +1,8 @@
+<p class="picture"><img src="photos/pic1.jpg"  width="360px" height="264px"></p>
+<p class="picture"><img src="photos/pic2.JPG"  width="400px" height="285px"></p>
+<p class="picture"><img src="photos/pic3.JPG"  width="480px" height="353px"></p>
+<p class="picture"><img src="photos/pic4.jpg"  width="437px" height="355px"></p>
+<p class="picture"><img src="photos/pic5.gif"  width="499px" height="281px"></p>
+<p class="picture"><img src="photos/pic6.jpg"  width="500px" height="375px"></p>
+<p class="picture"><img src="photos/pic7.jpg"  width="400px" height="400px"></p>
+<p class="picture"><img src="photos/pic8.jpg"  width="491px" height="375px"></p>
